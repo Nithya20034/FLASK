@@ -1,0 +1,26 @@
+create database flask
+use flask;
+
+INSERT INTO employees (id, name, job_title, salary, hire_date) VALUES
+(1, 'John Doe', 'Software Engineer', 75000.00, '2022-05-15'),
+(2, 'Jane Smith', 'Data Scientist', 80000.00, '2021-03-10'),
+(3, 'Alice Johnson', 'Product Manager', 85000.00, '2020-07-25'),
+(4, 'Michael Brown', 'UX Designer', 72000.00, '2023-01-18'),
+(5, 'Emily Davis', 'HR Manager', 65000.00, '2019-11-30'),
+(6, 'William Wilson', 'Marketing Specialist', 68000.00, '2021-09-05'),
+(7, 'Olivia Taylor', 'Web Developer', 71000.00, '2020-12-12'),
+(8, 'James Anderson', 'Data Engineer', 77000.00, '2022-08-22'),
+(9, 'Sophia Thomas', 'Business Analyst', 75000.00, '2023-02-14'),
+(10, 'Liam Martinez', 'Network Engineer', 79000.00, '2021-06-06'),
+(11, 'Ava Jackson', 'Financial Analyst', 74000.00, '2022-04-02'),
+(12, 'Lucas Harris', 'Sales Manager', 72000.00, '2020-03-15'),
+(13, 'Mia Clark', 'Content Strategist', 69000.00, '2021-11-22'),
+(14, 'Ethan Lewis', 'QA Tester', 60000.00, '2022-10-19'),
+(15, 'Isabella Walker', 'Product Designer', 77000.00, '2019-08-30'),
+(16, 'Benjamin Hall', 'Software Architect', 95000.00, '2021-07-08'),
+(17, 'Charlotte Young', 'Operations Manager', 80000.00, '2020-05-25'),
+(18, 'Elijah Allen', 'Customer Support', 56000.00, '2023-03-11'),
+(19, 'Amelia Scott', 'Social Media Manager', 68000.00, '2022-06-17'),
+(20, 'Jack Adams', 'SEO Specialist', 72000.00, '2021-04-21');
+
+select*from employees
